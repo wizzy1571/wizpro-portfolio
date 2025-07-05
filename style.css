@@ -1,0 +1,158 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 28px;
+  color: #111;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #0077cc;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #0077cc;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h2 {
+  font-size: 32px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Sections */
+.section {
+  padding: 50px 20px;
+}
+
+.section h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+/* Projects */
+.template-card {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.template-card a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Contact */
+#contact ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+#contact li {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  color: #666;
+  font-size: 14px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  header h1 {
+    text-align: center;
+  }
+
+  nav {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 8px 10px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .section h2 {
+    font-size: 22px;
+}
+    }
+    .btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005fa3;
+}
