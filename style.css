@@ -316,3 +316,7 @@ footer {
     max-width: 300px;
 }
 }
+.projects h2 + h2 {
+  margin-top: 60px;
+  color: #0077cc;
+}
